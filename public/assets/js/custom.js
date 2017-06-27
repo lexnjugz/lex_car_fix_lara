@@ -392,7 +392,7 @@
 			}
 		}
 		if (plugins.googleMapFooter.length) {
-			createMap('footer-map', 14, 37.36274700000004, -122.03525300000001)
+			createMap('footer-map', 14, -1.286442, 36.817852)
 		}
 
 	});
@@ -762,7 +762,7 @@
 		var mapElement = document.getElementById(id);
 		// Create the Google Map using our element and options defined above
 		var map = new google.maps.Map(mapElement, mapOptions);
-		var image = 'images/map-marker.png';
+		var image = '/assets/images/map-marker.png';
 		// Let's also add a marker while we're at it
 		var marker = new google.maps.Marker({
 			position: new google.maps.LatLng(lat, lng),

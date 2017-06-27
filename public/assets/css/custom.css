@@ -1375,7 +1375,7 @@ html {
 .block.bg-1,
 .block.bg-2,
 .block.bg-3 {
-  background: url(../images/block-bg-1.jpg) no-repeat fixed center center;
+  background: url("../../assets/images/block-bg-1.jpg") no-repeat fixed center center;
   background-size: cover;
   padding: 75px 0 60px;
 }
@@ -1450,10 +1450,10 @@ html {
   color: #fff;
 }
 .block.bg-dark.full-block {
-  background: url(../images/grey-bg-1.png) repeat 0 0;
+  background: url("../../assets/images/grey-bg-1.png") repeat 0 0;
 }
 .block.bg-dark:not(.full-block) .container {
-  background: url(../images/grey-bg-1.png) repeat 0 0;
+  background: url("../../assets/images/grey-bg-1.png") repeat 0 0;
 }
 .block.offset-sm {
   margin-top: -35px;
@@ -1478,7 +1478,7 @@ html {
   }
 }
 body:not(.home) {
-  background: url(../images/header-photo-bg.jpg) repeat-y center 0;
+  background: url("../../assets/images/header-photo-bg.jpg") repeat-y center 0;
 }
 body:not(.home) #pageContent {
   padding-top: 100px;
@@ -1518,7 +1518,7 @@ body:not(.home) #pageContent {
 }
 @media (max-width: 991px) {
   #pageTitle {
-    background: url(../images/header-photo-bg.jpg) repeat 0;
+    background: url("../../assets/images/header-photo-bg.jpg") repeat 0;
   }
 }
 .row-grey {
@@ -1568,7 +1568,7 @@ header.page-header:before {
   left: 0;
 }
 header .header-row {
-  background: url(../images/grey-bg.png) repeat;
+  background: url("../../assets/images/grey-bg.png") repeat;
   overflow: hidden;
 }
 header .header-row .logo {
@@ -3761,7 +3761,7 @@ h2 + .testimonials {
 }
 /*-----  3.10 Banner Under Slider--------*/
 .banner-under-slider {
-  background: url(../images/banner-bg.png);
+  background: url("../../assets/images/banner-bg.png");
   color: #fff;
   padding: 50px 0 47px;
   margin-bottom: 110px;

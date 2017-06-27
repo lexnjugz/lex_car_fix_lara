@@ -3,42 +3,18 @@
 namespace App\Http\Controllers;
 
 use App\Http\Controllers\Controller;
+use Illuminate\Http\Request;
+use Illuminate\Http\Response;
+use App\Data;
+use Validator;
+use Illuminate\Support\Facades\Input;
 
-class MainController extends Controller{
+class MainController extends Controller {
 
-    public function index(){
-        return view('index');
+    public function postAppointment(Request $request) {
+        $task = Appointment::create($request->all());
+
+        return Response::json($task);
     }
 
-    public function about(){
-        return view('about');
-    }
-
-    public function services(){
-        return view('services');
-    }
-
-    public function blog(){
-        return view('blog');
-    }
-
-    public function blog_card(){
-        return view('blog_card');
-    }
-
-    public function blog_single(){
-        return view('blog_single');
-    }
-
-    public function gallery(){
-        return view('gallery');
-    }
-
-    public function faq(){
-        return view('faq');
-    }
-
-    public function contact(){
-        return view('contact');
-    }
 }
